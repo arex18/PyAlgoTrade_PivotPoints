@@ -31,3 +31,8 @@ self._pp_e = pivotpoints.PivotPointsEventBased(feed[instrument], vwapWindowSize,
 ```
 
 See the strategy example for more info.
+
+## Note on naming convension
+
+Whilst I disagree with the non-Pythonic naming convension that the author of the library
+adopted, I continued on with the same convension for clarity.
