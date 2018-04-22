@@ -1,4 +1,4 @@
-# PyAlgoTrade Pivot Points Technicals
+# PyAlgoTrade Pivot Points Technical Indicator
 
 [PyAlgoTrade](https://gbeced.github.io/pyalgotrade/) has inbuilt technicals and supports TA-Lib integration. 
 Unfortunately, none of them include pivot points (PP).
