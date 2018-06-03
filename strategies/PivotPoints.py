@@ -6,7 +6,7 @@ class PivotPointMomentum(strategy.BacktestingStrategy):
     """
     This is a dummy strategy to illustrate the use of pp data structures.
     """
-    
+
     def __init__(self, feed, instrument, vwapWindowSize, threshold):
         super(PivotPointMomentum, self).__init__(feed)
         self._instrument = instrument
@@ -55,7 +55,7 @@ class PivotPointMomentum(strategy.BacktestingStrategy):
         if vwap is None:
             return
 
-        assert pp[-1] == pp_e[-1]['PP']
+        assert pp[-1] == pp_e[-1][-1]['PP']
         # -------------------------------------------------------------------
 
         # Dummy strategy

@@ -146,8 +146,8 @@ class PivotPointsEventBased(technical.EventBasedFilter):
         :return:
         """
         if len(self._EventBasedFilter__eventWindow.pp) != 0:
-            return (list(self._EventBasedFilter__eventWindow.pp.keys())[0],
-                    list(self._EventBasedFilter__eventWindow.pp.values())[0])
+            return (list(self._EventBasedFilter__eventWindow.pp.keys()),
+                    list(self._EventBasedFilter__eventWindow.pp.values()))
         else:
             return (None, None)
 
